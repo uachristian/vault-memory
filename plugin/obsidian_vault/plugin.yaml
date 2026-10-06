@@ -1,0 +1,15 @@
+name: obsidian_vault
+version: 0.2.0
+description: Obsidian vault long-term memory provider — BM25 + recency retrieval over allowed vault lanes, query-time lane enforcement, and AGENTS.md-compliant capture/log tools.
+author: uachristian
+kind: standalone
+provides_memory_provider:
+- obsidian_vault
+provides_tools:
+- obsidian_vault_search
+- obsidian_vault_read
+- obsidian_vault_capture
+provides_skills:
+- obsidian-vault-memory
+optional_env:
+- OBSIDIAN_VAULT_PATH

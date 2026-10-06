@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.sqlite3
+*.sqlite3-*
+*.jsonl
+.env
+.DS_Store
+.obsidian/
